@@ -24,6 +24,13 @@ cd desafio-tecnico-matera
  mvn clean install
 ```
 
+> 🚩 Em caso de erros ao compilar o projeto, verique se sua váriavel JAVA_HOME está configurada corretamente no seu 
+> sistema em `~/.bashrc` ou `~/.zshrc`. Ela é uma dependência direta do maven.
+> 
+> Caso prefira, basta localizar no arquivo `pom.xml` a váriavel `${java.version}`e substituir pela sua versão da JDK, tal
+> como 21, 22, 23...
+
+
 ### Estrutura do Projeto
 
 #### Testes
