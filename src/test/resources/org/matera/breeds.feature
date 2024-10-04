@@ -23,4 +23,4 @@ Feature: GET /breeds endpoint
   Scenario: Handling invalid Host header in GET request to breeds endpoint
     Given I have access to the Cat Facts API
     When I send a GET request to the breeds endpoint with invalid Host header
-    And I should receive a connection close from the server
+    Then I should receive a connection close from the server

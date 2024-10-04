@@ -64,7 +64,7 @@ public class BreedStepDefinition {
         .post("/breeds");
   }
 
-  @And("I should receive a connection close from the server")
+  @Then("I should receive a connection close from the server")
   public void iShouldReceiveAConnectionCloseFromTheServer() {
     assertTrue(isConnectionClosed);
   }
